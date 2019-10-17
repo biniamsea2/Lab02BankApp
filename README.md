@@ -7,7 +7,7 @@ LAB 02: Unit Tests & Documentation
 ----
 
 ## Description
-This is a C# console application that creates a bank ATM. Where the user can view their balance, make a deposit, and withdraw. The application will keep track of all transcations, constantly updating the user's deposit.
+This is a C# console application that creates a bank ATM. Where the user can view their balance, make a deposit, and withdraw. The application will keep track of all transactions, constantly updating the user's balance.
 
 ## Program Specifications  
 Your solution should include the following:  
