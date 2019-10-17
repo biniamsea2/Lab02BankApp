@@ -50,7 +50,7 @@ Then select and open ```Lab02BankApp.sln```
 ---
 
 ### Change Log
-1.0: LAB 02: Unit Tests & Documentation almost complete 10/16/19
+1.0: LAB 02: Unit Tests & Documentation complete 10/16/19
 
 ------------------------------
 
