@@ -13,9 +13,9 @@ namespace XUnitTestProject1
         }
 
         [Fact]
-        public void DepositTest()
+        public void TestingDeposit()
         {
-            Assert.Equal(500, View(100500));
+            Assert.Equal(100200, Deposit(100000, 200));
         }
 
 

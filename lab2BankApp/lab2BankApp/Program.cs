@@ -22,6 +22,8 @@ namespace lab2BankApp
             }
 
         }
+
+
         public static void MainMenu()
         {
             double balance = 100000;
@@ -71,13 +73,24 @@ namespace lab2BankApp
 
             }
         }
+
+        /// <summary>
+        /// View method shows user their updated balance. If changes have been made.
+        /// </summary>
+        /// <param name="balance"></param>
+        /// <returns></returns>
         public static double View(double balance)
         {
             Console.WriteLine($"Your balance is {balance}");
             return balance;
         }
 
-
+        /// <summary>
+        /// Take's user's deposit and adds it the balance.
+        /// </summary>
+        /// <param name="balance"></param>
+        /// <param name="amountNum"></param>
+        /// <returns></returns>
         public static double Deposit(double balance, double amountNum)
         {
 
@@ -86,7 +99,12 @@ namespace lab2BankApp
             return total;
         }
 
-
+        /// <summary>
+        /// withdraws from the balance but cant withdraw more then their balance
+        /// </summary>
+        /// <param name="balance"></param>
+        /// <param name="withdrawAmount"></param>
+        /// <returns></returns>
         public static double Withdraw(double balance, double withdrawAmount)
         {
 
