@@ -13,12 +13,28 @@ namespace XUnitTestProject1
         }
 
         [Fact]
-        public void TestingDeposit()
+        public void TestingNewBalance()
         {
-            Assert.Equal(100200, Deposit(100000, 200));
+            Assert.NotEqual(100200, View(100000));
         }
 
+        [Fact]
+        public void TestingNewBalanceAfterWithdraw()
+        {
+            Assert.Equal(99500, Withdraw(100000, 500));
+        }
 
+        [Theory]
+        [InlineData(100000, 500)]
+        [InlineData(100, 50)]
+        [InlineData(0, 80000)]
+
+        public void TestingNewBalanceAfterDeposit(double balance, double amountNum)
+        {
+            double total = balance + amountNum;
+            Assert.Equal(total, Deposit(balance, amountNum));
+
+        }
 
     }
 }
