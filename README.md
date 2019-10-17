@@ -7,7 +7,7 @@ LAB 02: Unit Tests & Documentation
 ----
 
 ## Description
-This is a C# console application that creates a bank “ATM”. Where the user can view their balance, make a deposit, and withdraw. The application will keep track of all transcations, constantly updating the user's deposit.
+This is a C# console application that creates a bank ï¿½ATMï¿½. Where the user can view their balance, make a deposit, and withdraw. The application will keep track of all transcations, constantly updating the user's deposit.
 
 ## Program Specifications  
 Your solution should include the following:  
@@ -53,3 +53,4 @@ Then select and open ```Lab02BankApp.sln```
 1.0: LAB 02: LAB 02: Unit Tests & Documentation completed 10/16/19
 
 ------------------------------
+
