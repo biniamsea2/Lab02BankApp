@@ -7,7 +7,7 @@ LAB 02: Unit Tests & Documentation
 ----
 
 ## Description
-This is a C# console application that creates a bank �ATM�. Where the user can view their balance, make a deposit, and withdraw. The application will keep track of all transcations, constantly updating the user's deposit.
+This is a C# console application that creates a bank ATM. Where the user can view their balance, make a deposit, and withdraw. The application will keep track of all transcations, constantly updating the user's deposit.
 
 ## Program Specifications  
 Your solution should include the following:  
@@ -41,16 +41,16 @@ Then select and open ```Lab02BankApp.sln```
 ### Visuals
 
 #### Application Start
-![Image 1](https://github.com/biniamsea2/Lab01ExceptionHandling/blob/master/screenshots/Screenshot%20(23).png)
-#### Using the Application
-![Image 1](https://github.com/biniamsea2/Lab01ExceptionHandling/blob/master/screenshots/Screenshot%20(20).png)
-#### Application End
-![Image 1](https://github.com/biniamsea2/Lab01ExceptionHandling/blob/master/screenshots/Screenshot%20(19).png)
+![Image 1](https://github.com/biniamsea2/Lab02BankApp/blob/master/screenshots/Screenshot%20(24).png)
+#### Deposit
+![Image 1](https://github.com/biniamsea2/Lab02BankApp/blob/master/screenshots/Screenshot%20(25).png)
+#### Withdraw
+![Image 1](https://github.com/biniamsea2/Lab02BankApp/blob/master/screenshots/Screenshot%20(26).png)
 
 ---
 
 ### Change Log
-1.0: LAB 02: LAB 02: Unit Tests & Documentation completed 10/16/19
+1.0: LAB 02: Unit Tests & Documentation completed 10/16/19
 
 ------------------------------
 
